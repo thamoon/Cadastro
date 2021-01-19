@@ -1,0 +1,45 @@
+body{
+    background-color: #F0F8FF;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    color: #01446B;
+    justify-content: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 555px;
+}
+
+
+input, select, button {
+    font-family: sans-serif;
+    font-size: 0.9em;
+    color: #01446B;
+    border-radius: 3px;
+}
+
+button {
+        font-size: 1.2em;
+        background: #01446B;
+        border: 0;
+        margin-bottom: 1em;
+        color: #ffffff;
+        padding: 0.2em 0.6em;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        position: absolute;
+        cursor: pointer;
+}
+
+button:hover {
+    background: #B0C4DE;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+*:focus {
+    border: 0.5px solid #59429d;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    background: #B0C4DE;
+}
